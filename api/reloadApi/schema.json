@@ -1,0 +1,13 @@
+[
+  {
+    "namespace": "reloadApi",
+    "functions": [
+      {
+        "name": "reloadMsg",
+        "type": "function",
+        "async": true,
+        "parameters": []
+      }
+    ]
+  }
+]

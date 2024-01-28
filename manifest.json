@@ -1,0 +1,54 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "toggleHTML@dillinger",
+      "strict_min_version": "102.0",
+      "strict_max_version": "124.*"
+    }
+  },
+  "manifest_version": 2,
+  "name": "Toggle HTML",
+  "description": "Adds a Toggle HTML button",
+  "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/toggle-html/",
+  "version": "1.8",
+  "browser_action": {
+    "default_title": "Toggle HTML",
+    "default_label": "HTML",
+    "default_icon": "toggleHTML1.png"
+  },
+  "icons": {
+    "32": "toggleHTML.png"
+  },
+  "background": {
+    "scripts": [
+      "toggleHTML.js"
+    ]
+  },
+  "experiment_apis": {
+    "LegacyPrefs": {
+      "schema": "api/LegacyPrefs/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["LegacyPrefs"]],
+        "script": "api/LegacyPrefs/implementation.js"
+      }
+    },
+    "reloadApi": {
+      "schema": "api/reloadApi/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["reloadApi"]],
+        "script": "api/reloadApi/implementation.js"
+      }
+    }
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+H",
+        "mac": "Ctrl+Shift+H"
+      },
+      "description": "Toggle HTML"
+    }
+  }
+}
