@@ -1,7 +1,7 @@
 Changelog for Toggle Summary
 
 1.8
-Updated reloadApi API.
+Updated reloadApi & LegacyPrefs APIs.
 Set minimum version to Thunderbird 115.0.
 Set maximum version to Thunderbird 127.0.
 
