@@ -3,14 +3,14 @@
     "gecko": {
       "id": "toggleHTML@dillinger",
       "strict_min_version": "115.0",
-      "strict_max_version": "130.*"
+      "strict_max_version": "131.*"
     }
   },
   "manifest_version": 2,
   "name": "Toggle HTML",
   "description": "Adds a Toggle HTML button",
   "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/toggle-html/",
-  "version": "1.8",
+  "version": "1.9",
   "browser_action": {
     "default_title": "Toggle HTML",
     "default_label": "HTML",

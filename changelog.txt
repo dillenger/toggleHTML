@@ -1,5 +1,8 @@
 Changelog for Toggle Summary
 
+1.9
+ESMified the add-on.
+
 1.8
 Updated reloadApi & LegacyPrefs APIs.
 Set minimum version to Thunderbird 115.0.
