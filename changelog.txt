@@ -2,6 +2,7 @@ Changelog for Toggle Summary
 
 1.9
 ESMified the add-on.
+Set maximum version to Thunderbird 136.*.
 
 1.8
 Updated reloadApi & LegacyPrefs APIs.
